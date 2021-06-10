@@ -85,7 +85,7 @@ li span {
     display: none;
 }
 
-@media (min-width: 763px) {
+@media (min-width: 768px) {
     body {
         display: flex;
         align-items: center;
@@ -96,7 +96,7 @@ li span {
     }
     .img-desktop {
         display: block;
-        height: auto;
+        height: 406px;
         border-radius: 0 10px 10px 0;
     }
 
