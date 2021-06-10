@@ -80,3 +80,50 @@ li span {
     font-size: 14px;
     font-weight: 400;
 }
+
+.img-desktop {
+    display: none;
+}
+
+@media (min-width: 763px) {
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-mobile {
+        display: none;
+    }
+    .img-desktop {
+        display: block;
+        height: auto;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .img-overlay {
+        border-radius: 0 10px 10px 0;
+    }
+    .container {
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: hsl(244, 38%, 16%);
+        padding-bottom: unset;
+        text-align: left;
+        align-items: center;
+        max-width: 1000px;
+    }
+
+    .container > * {
+        flex-basis: 100%;
+    }
+
+    ul {
+        display: flex;
+        padding-top: 50px;
+        padding-left: 20px;
+    }
+    
+    .stats {
+        padding-left: 10px;
+    }
+}
