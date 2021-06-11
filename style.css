@@ -90,6 +90,7 @@ li span {
         display: flex;
         align-items: center;
         justify-content: center;
+        min-height: 100vh;
     }
     .img-mobile {
         display: none;
