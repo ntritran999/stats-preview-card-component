@@ -73,7 +73,7 @@ li span {
     font-size: 25px;
 } 
 
-.stuff {
+.stats-details {
     padding: 10px;
     opacity: 0.6;
     text-transform: uppercase;
@@ -117,7 +117,9 @@ li span {
     .container > * {
         flex-basis: 100%;
     }
-
+    .card-text {
+        align-items: center;
+    }
     ul {
         display: flex;
         padding-top: 50px;
