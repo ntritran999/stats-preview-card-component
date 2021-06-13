@@ -43,7 +43,19 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned how to make an overlay.
+```css
+.parent {
+  position: relative;
+  background: url('');
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: .6;
+}
 
 To see how you can add code snippets, see below:
 
