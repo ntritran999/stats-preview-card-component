@@ -29,7 +29,10 @@ Users should be able to:
 - Live Site URL: [Here.](https://stuff001.netlify.app)
 
 ## My process
-
+- 1. Re-learn css properties/flexbox, grid.
+- 2. Start working on the challenge with some help from youtube and google.
+- 3. Abandond this challenge for a day because I was discouraged a litle bit.
+- 4. Continue and finish.
 ### Built with
 
 - Simple HTML5 markup
